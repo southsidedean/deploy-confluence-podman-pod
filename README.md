@@ -1,11 +1,12 @@
 # Deploying a Confluence Server in a Podman Pod Using Containers
-**Tom Dean - 3/21/2023**
+
+### Tom Dean: [LinkedIn](https://www.linkedin.com/in/tomdeanjr/) / [GitHub](https://github.com/southsidedean)
 
 ## Introduction
 
-In my previous article, Deploying a Kubernetes-In-Docker (KIND) Cluster Using Podman on Ubuntu Linux, we took a look at how to use Podman to deploy a KIND container.
+In a previous tutorial, [Deploying a Kubernetes-In-Docker (KIND) Cluster Using Podman on Ubuntu Linux](https://github.com/southsidedean/deploy-kind-using-podman-ubuntu), we took a look at how to use Podman to deploy a KIND container.
 
-I was discussing what a good use case for an article on deploying an application in a Podman Pod with my friend Jeff Kaleth, and he suggested Atlassian Confluence, as he does quite a bit of work documenting things with it.  Confluence tends to be consumed as SaaS these days, but sometimes you might want to run a local instance.
+While discussing good use cases for an article on deploying an application in a Podman Pod with my friend Jeff Kaleth, he suggested Atlassian Confluence, as he does quite a bit of work documenting things with it.  Confluence tends to be consumed as SaaS these days, but sometimes you might want to run a local instance.
 
 Traditionally, this would mean installing software either on a bare metal server or virtual machine, on top of an operating system.  This would be messy, and take time and effort to get everything configured properly.  Yuck!
 
@@ -17,7 +18,9 @@ In this tutorial, I'm going to show you how to get a minimal instance of Conflue
 
 ## References
 
-[Deploying a Kubernetes-In-Docker (KIND) Cluster Using Podman on Ubuntu Linux](https://www.linkedin.com/pulse/deploying-kubernetes-in-docker-kind-cluster-using-podman-tom-dean-1c/)
+[GitHub: Deploying a Confluence Server in a Podman Pod Using Containers](https://github.com/southsidedean/deploy-confluence-podman-pod)
+
+[Deploying a Kubernetes-In-Docker (KIND) Cluster Using Podman on Ubuntu Linux](https://github.com/southsidedean/deploy-kind-using-podman-ubuntu)
 
 [Getting Started with Podman ](https://podman.io/getting-started/)
 
@@ -112,8 +115,6 @@ We're not going to go through setup in this tutorial, but if you wish, you can g
 
 ***You now have a working instance of Confluence Server!***
 
-## 
-
 ## Tearing Down Our Confluence Server
 
 When we're done with our Confluence server pod, we can tear it down in short order.
@@ -146,7 +147,7 @@ So, we've shown that deploying a self-hosted Confluence server doesn't have to b
 
 *What if we wanted to take our Confluence pod to Kubernetes?*
 
-In the next article, we'll take a look at how we can use Podman to generate and test a YAML manifest for our Confluence pod, so we can run it in our KIND (Kubernetes-In-Docker) cluster!
+In the next [tutorial](https://github.com/southsidedean/using-podman-generate-test-k8s-manifest), we'll take a look at how we can use Podman to generate and test a YAML manifest for our Confluence pod, so we can run it in our KIND (Kubernetes-In-Docker) cluster!
 
 Enjoy!
 
