@@ -22,7 +22,7 @@ In this tutorial, I'm going to show you how to get a minimal instance of Conflue
 
 [Deploying a Kubernetes-In-Docker (KIND) Cluster Using Podman on Ubuntu Linux](https://github.com/southsidedean/deploy-kind-using-podman-ubuntu)
 
-[Getting Started with Podman ](https://podman.io/getting-started/)
+[Getting Started with Podman](https://podman.io/getting-started/)
 
 [dockerhub: atlassian/confluence-server](https://hub.docker.com/r/atlassian/confluence-server)
 
